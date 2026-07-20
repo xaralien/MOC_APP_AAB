@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MlejitApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="21">@color/status_bar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <!-- Splash: instant black window with the logo -->
+    <style name="Theme.MlejitApp.Launch" parent="Theme.MlejitApp">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/splash_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/splash_bg</item>
+    </style>
+</resources>
